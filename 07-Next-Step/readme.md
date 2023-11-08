@@ -334,3 +334,7 @@ textsurface = myfont.render('Some Text', False, (0, 0, 0))
 
 When a collision occurs create a new PointSprite. Set it's x and y to the x and y of the collided sprite. Do this before removing that sprite. Add it to the all sprites group. 
 
+**Challenge**
+
+Track the objects that players collect. If a player collects three of the same type they get extra points! For example if a player collects: Apple, Strawberry, Lemmon they get 100 points each. If they collect Lemmon, Lemmon, Lemmon, they get 500 points for the third Lemmon! 
+
